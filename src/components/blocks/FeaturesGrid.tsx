@@ -5,17 +5,17 @@ const features = [
   {
     title: "Diaspora co Spices",
     description: "Ethically sourced spices from around the world",
-    image: "/images/spices.jpg",
+    image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=2070",
   },
   {
     title: "Our Farm Fund",
     description: "Supporting sustainable farming practices",
-    image: "/images/farm.jpg",
+    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=2070",
   },
   {
     title: "Seasonal Products",
     description: "Fresh produce aligned with nature's rhythm",
-    image: "/images/seasonal.jpg",
+    image: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=2087",
   },
 ];
 
@@ -23,7 +23,7 @@ export const FeaturesGrid = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 container mx-auto py-16">
       {features.map((feature) => (
-        <Card key={feature.title} className="overflow-hidden">
+        <Card key={feature.title} className="overflow-hidden hover-card-effect">
           <div className="relative h-48">
             <img
               src={feature.image}
