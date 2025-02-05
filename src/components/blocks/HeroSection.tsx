@@ -5,7 +5,7 @@ export const HeroSection = () => {
     <div className="relative h-[600px] overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/images/hero-bg.jpg"
+          src="https://images.unsplash.com/photo-1610348725531-843dff563e2c?q=80&w=2070"
           alt="Fresh vegetables and fruits"
           className="w-full h-full object-cover"
         />
