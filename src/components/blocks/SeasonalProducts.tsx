@@ -5,12 +5,12 @@ const seasonalProducts = [
   {
     title: "Winter Tomatoes",
     description: "Vine-ripened and bursting with flavor",
-    image: "/images/tomatoes.jpg",
+    image: "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?q=80&w=2070",
   },
   {
     title: "Blood Oranges",
     description: "Sweet and vibrant citrus in season now",
-    image: "/images/oranges.jpg",
+    image: "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?q=80&w=2070",
   },
 ];
 
@@ -21,7 +21,7 @@ export const SeasonalProducts = () => {
         <h2 className="text-3xl font-bold mb-8">Season Now</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {seasonalProducts.map((product) => (
-            <Card key={product.title} className="overflow-hidden">
+            <Card key={product.title} className="overflow-hidden hover-card-effect">
               <div className="relative h-64">
                 <img
                   src={product.image}
