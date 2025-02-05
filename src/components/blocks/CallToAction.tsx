@@ -5,7 +5,7 @@ export const CallToAction = () => {
     <div className="relative py-20 overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/images/cta-bg.jpg"
+          src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=2070"
           alt="Fresh vegetables background"
           className="w-full h-full object-cover opacity-20"
         />
